@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="./odometer-theme-default.css" />
+<style>
+.odometer {
+	font-size: 100px;
+	float: right;
+	padding-right: 552px;
+	padding-top: calc(100vh-350px);
+}
+</style>
+<script>
+window.odometerOptions = {
+  format: 'dd'
+};
+</script>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="./odometer.js"></script>
+  <div class="odometer" id="div"></div>
+  <div class="lista"><ul id="lista"></ul></div>
+	<style>
+		.lista{height:calc(100vh - 350px); min-height: 100px; width:400px; overflow:hidden; overflow-y:scroll;}
+	</style>
+</body>
+
+<script src="./random.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+</html>
